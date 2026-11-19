@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy — SPF Explorer</title>
+    <style>
+      :root {
+        --bg: #0e0e1a;
+        --text: #e2e5f3;
+        --muted: #8c91a8;
+        --teal: #03cea3;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: system-ui, sans-serif;
+        line-height: 1.6;
+      }
+      main {
+        max-width: 42rem;
+        margin: 0 auto;
+        padding: 2rem 1rem 4rem;
+      }
+      h1 {
+        font-size: 1.6rem;
+      }
+      a {
+        color: var(--teal);
+      }
+      .muted {
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p><a href="./">← Back to the SPF Explorer</a></p>
+
+      <h1>Privacy</h1>
+
+      <p>
+        The SPF Explorer doesn't ask for your name or any other personal details, and doesn't use
+        cookies.
+      </p>
+      <ul>
+        <li>
+          <strong>Hosting.</strong> The site is hosted on GitHub Pages, which may process technical
+          information such as your IP address.
+        </li>
+        <li>
+          <strong>Background map.</strong> Map information is provided by OpenFreeMap, which may log
+          IP addresses for security purposes or if errors occur.
+        </li>
+        <li>
+          <strong>Visitor statistics.</strong> We count visits using Umami. It does not use cookies
+          and does not store your IP address.
+        </li>
+        <li>
+          <strong>Local storage.</strong> Your browser remembers whether you have dismissed the help
+          panel. This is stored only on your device.
+        </li>
+        <li>
+          <strong>When you search for a place.</strong> What you type is sent to Nominatim, a
+          geocoding service run by the OpenStreetMap Foundation, along with your IP address.
+        </li>
+        <li>
+          <strong>When you use your location.</strong> Your browser asks for permission first. Your
+          exact location is used only inside your browser and is not stored by Imago.
+        </li>
+        <li>
+          <strong>Live weather.</strong> "Find me a sunny place" sends a location rounded to about
+          1&nbsp;km to Open-Meteo, along with your IP address. Open-Meteo deletes its logs after 90
+          days.
+        </li>
+      </ul>
+      <p>
+        Imago is run by the University of Liverpool. For full details, including how to contact us
+        and your rights, see the
+        <a href="https://imago.ac.uk/privacy-policy">Imago privacy notice</a>.
+      </p>
+
+      <p class="muted">Last updated <span>19.11.2026</span>.</p>
+    </main>
+  </body>
+</html>
